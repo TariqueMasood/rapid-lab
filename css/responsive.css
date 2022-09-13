@@ -1,0 +1,156 @@
+@media (max-width: 768px) {
+
+    html {
+        font-size: 70% !important;
+    }
+
+    .home_page-wrap {
+        flex-direction: column;
+        width: 100%;
+        height: 100% !important;
+    }
+
+    .home_img img {
+        width: 100%;
+        height: 100%;
+        padding: 15px;
+    }
+
+    .home_img,
+    .home_detail {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .home_btn1,
+    .home_btn2 {
+        width: 80% !important;
+    }
+
+    /* ----------------LOGIN----------------- */
+
+    .login_wrap {
+        flex-direction: column;
+        width: 100%;
+        height: 100% !important;
+        align-items: center !important;
+    }
+
+    .login_img img {
+        width: 100%;
+        height: 100%;
+        padding: 15px;
+    }
+
+    .login_img,
+    .login_detail {
+        padding: 30px !important;
+    }
+
+    .login_form input {
+        width: 80% !important;
+    }
+
+    .login_forgot {
+        float: none !important;
+    }
+
+    /* -------------- FORGOT PASSWORD --------------*/
+
+    .forgot_wrap {
+        flex-direction: column;
+        width: 100% !important;
+        height: 100% !important;
+    }
+
+    .forgot_img img {
+        width: 100%;
+        height: 100%;
+        padding: 15px;
+    }
+
+    .forgot_detail {
+        padding: 15px;
+    }
+
+    /* ------------GETSTART----------- */
+
+    /* .modal-content {
+            width: 30% ;
+        } */
+
+    /* ----------HOME1------------- */
+
+
+    .home1_header-right {
+        display: none;
+    }
+
+    .home1_hambr {
+        display: block !important;
+        color: aquamarine;
+        /* font-size: 12px; */
+        width: 60px;
+    }
+
+
+    .home1_content-wrap {
+        flex-direction: column;
+        align-items: center;
+        justify-items: center;
+        justify-content: center !important;
+    }
+
+    .home1_content {
+        flex-direction: column;
+    }
+
+    .home1_market-wrap {
+        flex-direction: column;
+        align-items: center;
+        padding-top: 0px !important;
+    }
+
+    .home1_title a {
+        margin-right: 7px;
+    }
+
+    .home1_card-date {
+        flex-direction: column;
+    }
+
+    .home1_title {
+        text-align: center;
+    }
+
+    .home1_marketplace>p {
+        text-align: center;
+        padding-left: 0px !important;
+    }
+
+    .home1_content-right {
+        padding: 0px 0px 16px 0px !important;
+        border: none !important;
+        text-align: center;
+    }
+
+    .home1_title {
+        margin-bottom: 12px !important;
+        margin-top: 0px !important;
+    }
+
+    .home1_market {
+        margin-top: 16px;
+    }
+
+    /* -------------SIDE HEADER--------- */
+
+    #sidebar {
+        display: block;
+    }
+
+    #hamburgerMenu {
+        display: block !important;
+    }
+
+}

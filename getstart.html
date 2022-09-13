@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="fontawesome-free-6.1.2-web/fontawesome-free-6.1.2-web/css/all.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Get Start</title>
+</head>
+
+<body>
+    <div class="getstart">
+        <div class="container">
+            <div class="getstart_img">
+                <p>Get <span>Started</span></p>
+                <img src="images/Ellipse.png" class="getstart_add-img" alt="images">
+                <img src="images/add image.png" class="add-img" alt="image">
+            </div>
+            <div class="getstart_form_wrap">
+                <form class="getstart_form">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <label>Ragister As</label>
+                            <select class="form-select get_start-input" id="inputGroupSelect01">
+                                <option selected>Patient</option>
+                                <option value="1">Healthcare Provider</option>
+                            </select>
+                        </div>
+                        <div class="col-md-6">
+                            <label for="m-number">Mobile Number</label>
+                            <input type="tel" class="form-control get_start-input" id="m-number"
+                                placeholder="Mobile Number">
+                        </div>
+                        <div class="col-md-6">
+                            <label for="f-name">First Name</label>
+                            <input type="text" class="form-control get_start-input" id="f-name" placeholder="First Name"
+                                name="name">
+                        </div>
+                        <div class="col-md-6">
+                            <label for="l-name">Last Name</label>
+                            <input type="text" class="form-control get_start-input" id="l-name" placeholder="Last Name"
+                                name="Mobile">
+                        </div>
+                        <div class="col-md-6">
+                            <label for="date">Date of Birth</label>
+                            <input type="date" class="form-control get_start-input" id="date" placeholder="Last Name">
+                        </div>
+                        <div class="col-md-6">
+                            <label for="h-card">Health Card Number</label>
+                            <input type="text" class="form-control get_start-input" id="h-card" placeholder="1909276494"
+                                name="name">
+                        </div>
+                        <div class="col-md-6">
+                            <label for="mail">Email Address</label>
+                            <input type="mail" class="form-control get_start-input" id="mail" placeholder="Enter Email">
+                        </div>
+                        <div class="col-md-6">
+                            <label for="pwd">Password</label>
+                            <input type="password" class="form-control get_start-input" id="pwd" placeholder="Password">
+                        </div>
+                    </div>
+                </form>
+                <div class="get_start-btn">
+                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#myModal">
+                        Submit
+                    </button>
+                </div>
+
+                <!-- The Modal -->
+                <div class="modal" id="myModal">
+                    <div class="modal-dialog modal-dialog-centered">
+                        <div class="modal-content">
+
+                            <!-- Modal Header -->
+                            <div class="modal-header">
+                                <!-- <h4 class="modal-title">Modal Heading</h4> -->
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                            </div>
+
+                            <!-- Modal body -->
+                            <div class="d-flex justify-content-center align-items-center container">
+                                <div class="card py-5 px-3">
+                                    <p class="get_start-verify">Verify OTP</p>
+                                    <span class="mobile-text" style="text-align:center;">Enter OTP sent to
+                                        +9186684833</span>
+                                    <div class="d-flex flex-row mt-4"><input type="text" class="form-control"
+                                            autofocus=""><input type="text" class="form-control"><input type="text"
+                                            class="form-control"><input type="text" class="form-control"></div>
+                                    <div class="text-center mt-4"><span class="mobile-text">Did not receive
+                                            OTP?</span><span
+                                            class="font-weight-bold text-danger cursor get_start-resend">Resend</span>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-danger">Submit</button>
+                            </div>
+
+                            <!-- Modal footer -->
+                            <!-- <div class="modal-footer">
+                                <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                            </div> -->
+
+                        </div>
+                    </div>
+                </div>
+                <p class="getstart_already">Already a user? <a href="#">Login</a></p>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
