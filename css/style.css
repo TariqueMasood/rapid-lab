@@ -532,7 +532,7 @@ p {
 
 .home1_header {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-between !important;
     align-items: center;
     height: 6.25rem;
 }
@@ -587,9 +587,30 @@ p {
 
 .home1_content-wrap {
     display: flex;
-    justify-content: space-between;
+    /* justify-content: space-between; */
+    flex-direction: column;
     border-bottom: 2px solid #192054;
     padding-bottom: 3rem;
+}
+
+
+
+.home1-card-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.home1_title-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.home1_view {
+    margin-right: 12px;
+}
+
+.home1_title a {
+    margin-right: 12px;
 }
 
 .home1_wrapper {
@@ -699,6 +720,7 @@ p {
     border-radius: 10px;
     padding: 0.625rem 2.5rem;
     text-align: center;
+    cursor: pointer;
 }
 
 .home1_market img {
@@ -722,13 +744,31 @@ p {
 } */
 
 #sidebar {
-    width: 250px;
+    width: 180px;
     position: fixed;
-    left: -250px;
+    left: -180px;
     top: 0;
     height: 100vh;
     transition: .3s linear;
-    background-color: #b04f00;
+    background-color: #FF7401;
+}
+
+#sidebar li {
+    list-style: none;
+    padding: 10px;
+}
+
+#sidebar ul img {
+    padding: 10px;
+}
+
+#sidebar li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+#sidebar li a:hover {
+    color: #b04f00;
 }
 
 #sidebar.active {
@@ -737,5 +777,5 @@ p {
 
 #hamburgerMenu {
     display: none;
-    background-color: red;
+    background-color: #FF7401;
 }

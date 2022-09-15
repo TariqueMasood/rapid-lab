@@ -153,4 +153,73 @@
         display: block !important;
     }
 
+    #hamburgerMenu i {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 30px;
+        height: 30px;
+    }
+
+    .home1_title1 {
+        font-size: 16px !important;
+        margin-right: 9px;
+    }
+
+    .home1_title-wrapper {
+        align-items: center;
+    }
+
+}
+
+
+
+
+@media (max-width:992px) {
+
+    .home1_header-right ul li {
+        font-size: 14px !important;
+        padding-right: 18px !important;
+    }
+
+
+    .home1_title {
+        font-size: 20px !important;
+    }
+
+    .home1_marketplace>p {
+        font-size: 20px !important;
+    }
+
+    .home1_market-wrap {
+        padding-top: 20px !important;
+    }
+}
+
+
+@media (max-width:1200px) {
+    .home1-card-wrapper {
+        flex-direction: column;
+    }
+
+    .home1_view {
+        margin-right: 0px !important;
+    }
+
+    .home1_view,
+    .home1_appoint {
+        margin-bottom: 12px;
+    }
+
+    .home1_card {
+        margin-right: 12px !important;
+    }
+
+    .home1_market-wrap {
+        flex-direction: column;
+    }
+
+    .home1_market {
+        margin: 20px;
+    }
 }
